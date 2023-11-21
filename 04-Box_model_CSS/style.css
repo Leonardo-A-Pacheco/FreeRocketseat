@@ -1,0 +1,25 @@
+html{
+    background: grey;
+}
+
+.titulo {
+    padding: 20px;
+    text-shadow: 6px 6px 6px greenyellow;
+    border: 5px solid black;
+}
+
+img{
+    margin: 10px solid;
+    border: 5px solid black;
+    padding: 20px;
+}
+/*****************/
+
+header{
+    border: 5px solid greenyellow;
+
+}
+
+footer{
+    margin-bottom: 100px;
+}
