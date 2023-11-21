@@ -1,0 +1,27 @@
+
+.nivel1{
+    background: red;
+    border: black;
+    }
+
+.nivel1{
+    background: green;
+    }
+
+
+#id{
+    background: yellow;
+    }
+
+.classe{
+    background: pink;
+    }
+
+h4{
+    background: tomato;
+    }
+
+footer{
+    padding: 200px;
+    background: purple;
+    }
