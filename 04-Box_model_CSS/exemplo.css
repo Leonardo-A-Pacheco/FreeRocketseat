@@ -1,25 +1,24 @@
-header{
+header {
     background: gray;
-    border: : 5px solid red;
+    border: 5px solid red; /* Remova os dois pontos desnecessários */
     padding: 60px;
 }
 
-h1{
+h1 {
     background: peru;
     border: 3px solid green;
-    height: 30px;
+    /* height: 30px; */ /* Remova ou substitua por line-height ou height com uma unidade adequada */
+    line-height: 30px; /* Exemplo usando line-height */
 }
 
-p{
+p {
     background: royalblue;
     margin: 20px;
     border: 4px solid pink;
-    
 }
 
-span{
+span {
     background: greenyellow;
     margin: 20px;
     border: 4px solid rgb(0, 0, 255);
 }
-
