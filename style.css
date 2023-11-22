@@ -1,0 +1,7 @@
+body{
+    background-image: url(./PROJETO/assets/bg-mobile.jpg);
+    background-repeat: no-repeat; /*não repete a imagem*/
+    background-position: top center; /*alinha pelo centro e pela cabeça*/
+    background-size: cover; /*preenche tudo*/
+    color: white;
+}
