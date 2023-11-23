@@ -13,7 +13,7 @@ body * {
 }
 
 body{
-    background-image: url(./PROJETO/assets/bg-mobile.jpg);
+    background-image: url(./assets/bg-mobile.jpg);
     background-repeat: no-repeat; /*não repete a imagem*/
     background-position: top center; /*alinha pelo centro e pela cabeça*/
     background-size: cover; /*preenche todo espaço visivel*/}
@@ -29,7 +29,7 @@ body{
     margin-top: 56px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: auto;
+    margin-bottom: 200px;
 }
 
 #profile{
