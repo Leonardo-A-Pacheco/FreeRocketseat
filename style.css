@@ -13,7 +13,7 @@ body * {
 }
 
 body{
-    background-image: url(./assets/bg-mobile.jpg);
+    background-image: url(/bg-mobile.jpg);
     background-repeat: no-repeat; /*não repete a imagem*/
     background-position: top center; /*alinha pelo centro e pela cabeça*/
     background-size: cover; /*preenche todo espaço visivel*/}
