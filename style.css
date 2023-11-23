@@ -1,3 +1,17 @@
+/* zerando toda formatação vinda do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    /* mandando as confugurações respeirarem o tamanho do conteiner */
+    box-sizing: border-box;
+}
+
+ /* elemento universal usa asterisco */
+body * {
+    font-family: 'Andika', sans-serif;
+    color: white;
+}
+
 body{
     background-image: url(./PROJETO/assets/bg-mobile.jpg);
     background-repeat: no-repeat; /*não repete a imagem*/
@@ -5,20 +19,41 @@ body{
     background-size: cover; /*preenche todo espaço visivel*/}
 
 #conteiner{
-    border: 4px solid rgb(238, 5, 5);
+    border: 3px solid rgb(238, 5, 5);
     height: 712px;
     width : 360px;
     /*essa magin auto deixa o elemento com a mesma
     distancia da esquerda e da direita*/
-    margin: auto;}
+    margin: auto;
+    /* adicionando 56px de margem do conteirer principal para cima; */
+    margin-top: 56px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+}
 
 #profile{
-    border: 3px solid rgb(130, 156, 0);
+    border: 3px solid rgb(213, 255, 2);
     /*a utilização de alinhamento no elemento pai
      centraliza a imagem abaixo*/
-    text-align: center;}
+    text-align: center;
+    /* adicionando preencimento de 24px */
+    padding: 24px;
+}
 
 #profile img{
     border: 3px solid rgb(4, 121, 0);
-    width: 112px; /*há necessidade de definir só altura ou so largura*/}
+    width: 112px; /*há necessidade de definir só altura ou solargura*/
+    /* deixando a imagem quadrada redonda */
+    border-radius: 50%; }
+    
+    #profile p{
+    border: 3px solid tomato;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* adicionando 8px de distancia entre o @ e a foto */
+    margin-top: 8px;
+}
+
 
