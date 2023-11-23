@@ -2,6 +2,23 @@ body{
     background-image: url(./PROJETO/assets/bg-mobile.jpg);
     background-repeat: no-repeat; /*não repete a imagem*/
     background-position: top center; /*alinha pelo centro e pela cabeça*/
-    background-size: cover; /*preenche tudo*/
-    color: white;
-}
+    background-size: cover; /*preenche todo espaço visivel*/}
+
+#conteiner{
+    border: 4px solid rgb(238, 5, 5);
+    height: 712px;
+    width : 360px;
+    /*essa magin auto deixa o elemento com a mesma
+    distancia da esquerda e da direita*/
+    margin: auto;}
+
+#profile{
+    border: 3px solid rgb(130, 156, 0);
+    /*a utilização de alinhamento no elemento pai
+     centraliza a imagem abaixo*/
+    text-align: center;}
+
+#profile img{
+    border: 3px solid rgb(4, 121, 0);
+    width: 112px; /*há necessidade de definir só altura ou so largura*/}
+
