@@ -9,19 +9,19 @@
  /* elemento universal usa asterisco */
 body * {
     font-family: 'Andika', sans-serif;
-    /* color: white; */
-    color: black;
+    color: white;
+    /* color: black; */
 }
 
 body{
    background: gray;
-    /* background-image: url(./assets/bg-mobile.jpg); */
+    background-image: url(./assets/bg-mobile.jpg);
     background-repeat: no-repeat; /*não repete a imagem*/
-    background-position: top center; /*alinha pelo centro e pela cabeça*/
+    background-position: top center; /*alinha pelo centro e pela cabeça */
     background-size: cover; /*preenche todo espaço visivel*/}
 
 #conteiner{
-    border: 3px solid rgb(238, 5, 5);
+    /* border: 3px solid rgb(238, 5, 5); */
     height: 712px;
     width : 360px;
     /*essa magin auto deixa o elemento com a mesma
@@ -35,7 +35,7 @@ body{
 }
 
 #profile{
-    border: 3px solid rgb(213, 255, 2);
+    /* border: 3px solid rgb(213, 255, 2); */
     /*a utilização de alinhamento no elemento pai
      centraliza a imagem abaixo*/
     text-align: center;
@@ -44,13 +44,13 @@ body{
 }
 
 #profile img{
-    border: 3px solid rgb(4, 121, 0);
+    /* border: 3px solid rgb(4, 121, 0); */
     width: 112px; /*há necessidade de definir só altura ou solargura*/
     /* deixando a imagem quadrada redonda */
     border-radius: 50%; }
     
     #profile p{
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -59,15 +59,27 @@ body{
 }
 
 ul{
-    border: 3px solid green;
+    /* border: 3px solid green; */
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 ul li{
-    border: 3px solid tomato;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
+    background:rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 7%;
     padding: 16px 24px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    
+    
 }
 
+ul li a{   
+    text-decoration: none;
+    font-weight:  500;
+}
