@@ -9,11 +9,13 @@
  /* elemento universal usa asterisco */
 body * {
     font-family: 'Andika', sans-serif;
-    color: white;
+    /* color: white; */
+    color: black;
 }
 
 body{
-    background-image: url(./assets/bg-mobile.jpg);
+   background: gray;
+    /* background-image: url(./assets/bg-mobile.jpg); */
     background-repeat: no-repeat; /*não repete a imagem*/
     background-position: top center; /*alinha pelo centro e pela cabeça*/
     background-size: cover; /*preenche todo espaço visivel*/}
@@ -56,4 +58,15 @@ body{
     margin-top: 8px;
 }
 
+ul{
+    border: 3px solid cornflowerblue;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
 
+ul li{
+    border: 2px solid rgb(150, 237, 100);
+    text-align:center;
+}
