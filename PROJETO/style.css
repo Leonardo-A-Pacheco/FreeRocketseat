@@ -21,7 +21,7 @@ body{
     background-size: cover; /*preenche todo espaço visivel*/}
 
 #conteiner{
-    /* border: 3px solid rgb(238, 5, 5); */
+    border: 3px solid rgb(238, 5, 5);
     height: 712px;
     width : 360px;
     /*essa magin auto deixa o elemento com a mesma
@@ -32,6 +32,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 200px;
+    padding: 0 24px;
 }
 
 #profile{
@@ -75,11 +76,28 @@ ul li{
     padding: 16px 24px;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
+    transition: background 0.2s;
     
     
 }
 
+ul li:hover{
+    
+    background:rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
+}
+
+
 ul li a{   
     text-decoration: none;
     font-weight:  500;
+}
+
+#social-links{
+    border: solid white;
+    display: flex;
+    gap: 32px;
+    padding: 24px 0;
+    font-size: 24px;
+    justify-content: center;
 }

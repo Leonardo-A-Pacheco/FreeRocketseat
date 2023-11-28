@@ -6,3 +6,6 @@ ctrl shift p para identar automaticamente o codigo
 a forma de usar a fonte tambem é fornecida como algo assim:
 font-family: 'Andika', sans-serif;
 
+utilizando padding dentro do conteiner conseguimos diminuir o tamanho dos elementos filhos
+
+
