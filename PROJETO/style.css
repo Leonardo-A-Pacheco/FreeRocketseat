@@ -148,8 +148,7 @@ ul li{
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     transition: background 0.2s;
-    
-    
+
 }
 
 ul li:hover{
