@@ -81,41 +81,56 @@ body{
 }
 
 #switch{
-    border: 4px solid red;
+    border: 1px solid red;
+    position: relative;
+    /* colocando em um mesmo tamanho o conteiner */
+    width: 64px;
+    /* alinhando o menu switch no centro */
+    margin: 4px auto;
 }
 
-#switch{
+#switch button{
     width: 32px;
     height: 32px;
-    background: white;
     border: 0;
     border-radius: 50%;
+    background: white;
     background-image: var(--switch-bg-url);
     background-repeat: no-repeat;
     background-position: center;
-    
- 
-    
+
+    /* alinhando posicionamento do liga desliga absoluto  */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.light #switch button{
+    right: 0;
+    left: initial;
 }
 
 /* 
 span por padrão tem o display inline não aceita parametros de largura
 então mudamos para display block */
 
-#switch > span{
+#switch span{
     display: block;
     width: 64px;
     height: 24px;
     background: var(--surface-collor);
-    border: var(--stroke-collor);
+    border: 1px solid var(--stroke-collor);
+    border-radius: 99px;
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px) ;
-    border-radius: 9999px;
+    --webkit-backdrop-filter: blur(4px);
 }
 
+
 ul{
-    margin-top: 30px;
-    border: 3px solid green;
+    /* margin-top: 30px; */
+    /* border: 3px solid green; */
     list-style: none;
     display: flex;
     flex-direction: column;
