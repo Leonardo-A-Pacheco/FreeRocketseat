@@ -14,7 +14,7 @@
 
 .light{
     --text-collor: black;
-    /* --bg-url: url(./assets/bg-mobile-light.jpg) */
+    --bg-url: url(./assets/bg-mobile-light.jpg)
 }
 
 /* elemento universal usa asterisco */
