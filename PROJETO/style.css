@@ -6,16 +6,34 @@
     box-sizing: border-box;
 }
 
- /* elemento universal usa asterisco */
+:root{
+    --text-collor: white
+    --bg-url: url(./assets/bg-mobile.jpg)
+    
+}
+
+.light{
+    --text-collor: black;
+    /* --bg-url: url(./assets/bg-mobile-light.jpg) */
+}
+
+/* elemento universal usa asterisco */
 body * {
     font-family: 'Andika', sans-serif;
-    color: white;
+    /* color: white; */
+    color: var(--text-collor);
     /* color: black; */
 }
+
+body{background: var(--bg-url); no repeat top center/ cover;
+}
+
 
 body{
    background: gray;
     background-image: url(./assets/bg-mobile.jpg);
+    /* background-image: var(--bg-url); */
+    b
     background-repeat: no-repeat; /*não repete a imagem*/
     background-position: top center; /*alinha pelo centro e pela cabeça */
     background-size: cover; /*preenche todo espaço visivel*/}
@@ -85,7 +103,7 @@ ul li{
 ul li:hover{
     
     background:rgba(255, 255, 255, 0.05);
-    border: 1.5px solid white;
+    border: 1.5px solid var(--text-collor);
 }
 
 
@@ -119,7 +137,7 @@ ul li a{
 
 footer{
     border: solid white;
-    display: flex;
-    justify-content: center;
-
+    text-align: center;
+    padding: 16px;
+    font-size: 14px;
 }
