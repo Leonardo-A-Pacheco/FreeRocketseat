@@ -7,37 +7,38 @@
 }
 
 :root{
-    --text-collor: white
-    --bg-url: url(./assets/bg-mobile.jpg)
-    
+    --text-collor: white;
+    --bg-url: url(./assets/bg-mobile.jpg);
+    --stroke-collor: rgba(255, 255, 255, 0.5);
+    --surface-collor: rgba(255, 255, 255, 0.1);
+    --surface-collor-hoover: rgba(255, 255, 255, 0.05);
+    --highlight-collor: rgba(255, 255, 255, 0.5);
 }
 
 .light{
     --text-collor: black;
-    --bg-url: url(./assets/bg-mobile-light.jpg)
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+    --stroke-collor: rgba(0, 0, 0, 0.5);
+    --surface-collor: rgba(0, 0, 0, 0.1);
+    --surface-collor-hoover: rgba(0, 0, 0, 0.05);
+    --highlight-collor: rgba(10, 10, 10, 0.5);
 }
 
 /* elemento universal usa asterisco */
-body * {
+body *{
     font-family: 'Andika', sans-serif;
-    /* color: white; */
     color: var(--text-collor);
-    /* color: black; */
 }
-
-body{background: var(--bg-url); no repeat top center/ cover;
-}
-
 
 body{
-   background: gray;
-    background-image: url(./assets/bg-mobile.jpg);
+    background: var(--bg-url);
+    /* background-image: url(./assets/bg-mobile.jpg); */
     /* background-image: var(--bg-url); */
-    b
+    
     background-repeat: no-repeat; /*não repete a imagem*/
     background-position: top center; /*alinha pelo centro e pela cabeça */
     background-size: cover; /*preenche todo espaço visivel*/}
-
+    
 #conteiner{
     /* border: 3px solid rgb(238, 5, 5); */
     height: 712px;
@@ -89,8 +90,8 @@ ul{
 ul li{
     text-align: center;
     align-items: center;
-    background:rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.1);
+    background: var(--surface-collor);
+    border: 2px solid var(--stroke-collor);
     border-radius: 7%;
     padding: 16px 24px;
     backdrop-filter: blur(4px);
@@ -102,7 +103,7 @@ ul li{
 
 ul li:hover{
     
-    background:rgba(255, 255, 255, 0.05);
+    background: var(--surface-collor-hoover);
     border: 1.5px solid var(--text-collor);
 }
 
@@ -131,7 +132,7 @@ ul li a{
 }
 
 #social-links a:hover{
-    background: rgba(255, 255 ,255, 0.2);
+    background: var(--highlight-collor);
     padding: 16px;
 }
 
