@@ -81,7 +81,7 @@ body{
 }
 
 #switch{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
     /* colocando em um mesmo tamanho o conteiner */
     width: 64px;
@@ -187,8 +187,9 @@ ul li a{
 }
 
 footer{
-    border: solid white;
+    /* border: solid white; */
     text-align: center;
     padding: 16px;
     font-size: 14px;
 }
+
