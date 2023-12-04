@@ -43,8 +43,8 @@ body{
     
 #conteiner{
     /* border: 3px solid rgb(238, 5, 5); */
-    height: 712px;
-    width : 360px;
+    height: 100%;
+    max-width: 408px;
     /*essa magin auto deixa o elemento com a mesma
     distancia da esquerda e da direita*/
     margin: auto;
